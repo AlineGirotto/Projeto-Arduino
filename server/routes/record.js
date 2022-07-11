@@ -7,13 +7,12 @@ const ObjectId = require("mongodb").ObjectId;
 const { SerialPort } = require('serialport');
 const { ReadlineParser } = require('@serialport/parser-readline');
 const port = new SerialPort({ path: 'COM6', baudRate: 9600 });
-let cod, cont = {};
+let cod = {};
 const parser = port.pipe(new ReadlineParser({ delimiter: '\r\n' }));
 
 parser.on('data', function (dado) {
   cod = dado;
   espera();
-  cont = 1;
 });
 
 
@@ -42,7 +41,6 @@ recordRoutes.route("/registro").get(function (req, res) {
 });
 
 recordRoutes.route("/busca").get(function (req, res) {
-if(cont ==1){
     let db_connect = dbo.getDb("test");
     db_connect
       .collection("passageiros")
@@ -66,8 +64,6 @@ if(cont ==1){
           espera();
         }
       });
-	cont = 2;
-}
 });
 
 module.exports = recordRoutes;
