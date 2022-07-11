@@ -1,0 +1,150 @@
+body {
+  font-family: "Calisto MT", Times, serif;
+  font-size: 15px;
+}
+.Main {
+  background-color: #9bdaffa5 ;
+  border-style: outset;
+  border-color: #4454ff;
+  border-radius: 5px;
+  color: black;
+  padding: 30px 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 1px 10px 1px 10px;
+  margin: 1px;
+  background-color: #9bdaff;
+  border-style: outset;
+  border-color: #4454ff;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+.cont1 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.cont2 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-radius: 20px;
+}
+
+input {
+  background-color: #e5e5e5;
+  border-style: solid;
+  border-color: #4454ff;
+  border-radius: 20px;
+  height: 30px;
+  width: 30%;
+}
+button {
+  background-color: #4454ff;
+  color: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  height: 30px;
+}
+
+td {
+  float: left;
+  margin-left: 15px;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+.final {
+  float: right;
+  position: relative;
+}
+
+.cont {
+  width: 55px;
+  height: 20px;
+  margin: 10px;
+}
+
+.tudo {
+  padding: 10px;
+}
+
+#Contagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7%;
+  width: 30%;
+}
+
+.resultado {
+  margin: 20%;
+}
+
+.x{
+  margin-left: 1px;
+}
+
+textarea{
+  width: 500px;
+  height: 150px;
+}
+.passageiro{
+  border-style: groove;
+  border-color: #e5e5e5;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.passageiro td{
+  border-style: groove;
+  border-radius: 10px;
+  border-color: #e5e5e5;  
+  text-align: center;
+  float: none;
+}
+.passageiro tr{
+  border-radius: 15px;
+  border-style: groove;
+  border-color: #e5e5e5;  
+}
+
+.passageiro th{
+  border-style: groove;
+  border-radius: 15px;
+  border-color: #e5e5e5; 
+  background-color: #7b9cfe; 
+  padding: 1%;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+.menu{
+  margin-left: 10%;
+}
+
+#att{
+  text-align: center;
+}
