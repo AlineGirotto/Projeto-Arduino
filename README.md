@@ -1,5 +1,12 @@
 # Projeto-Arduino
-Projeto utilizando Arduino, Node.js, MongoDB, RFID e LCD/Led.
+Projeto voltado ao uso do arduino com outros aplicativos e tecnologias para a liberação de passagem via um cartão ou tag.
 
-# Instalação
+## Ferramentas
+Foi utilizado:  
+  * Arduino
+    **RFID e LCD/Led.
+  * Node.js
+  * MongoDB
+
+## Instalação
 Baixar os arquivos, dentro das pastas "Server" e "Client" rodar o "npm install".
