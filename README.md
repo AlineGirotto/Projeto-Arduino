@@ -4,7 +4,7 @@ Projeto voltado ao uso do arduino com outros aplicativos e tecnologias para a li
 ## Ferramentas
 Foi utilizado:  
   * Arduino
-    **RFID e LCD/Led.
+    [RFID e LCD/Led]
   * Node.js
   * MongoDB
 
